@@ -5,6 +5,7 @@ var video;
 window.addEventListener("load", function() {
 	console.log("Good job opening the window");
 	video = document.getElementById("player1");
+	video.src = 'assets/marchingband.mov';
 	video.autoplay = false;
 	video.loop = false; 
 });
